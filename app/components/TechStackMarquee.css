@@ -1,0 +1,28 @@
+.tech-marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+.tech-marquee:hover {
+  animation-play-state: paused;
+}
+
+.tech-marquee .logo-item {
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.tech-marquee .logo-item:hover {
+  transform: scale(1.2) rotate(-6deg);
+  box-shadow: 0 4px 24px 0 rgba(0, 123, 255, 0.15);
+  background: rgba(0, 123, 255, 1);
+  border-radius: 12px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+} 

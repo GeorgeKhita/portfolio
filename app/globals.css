@@ -20,7 +20,57 @@
 }
 
 body {
-  background: var(--background);
+  background-color: #0a0a0a;
+  background-image: url('/grid.svg');
+  background-repeat: repeat;
+  background-size: auto;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: url('/grid.svg');
+  background-repeat: repeat;
+  background-size: auto;
+  opacity: 0;
+}
+
+/* Scrollbar custom moderne */
+::-webkit-scrollbar {
+  height: 8px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #a0aec0;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+
+/* Pour le dark mode */
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-thumb {
+    background: #374151;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6b7280;
+  }
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #a0aec0 transparent;
+}
+@media (prefers-color-scheme: dark) {
+  * {
+    scrollbar-color: #374151 transparent;
+  }
 }
