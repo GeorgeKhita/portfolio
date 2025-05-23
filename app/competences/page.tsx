@@ -28,7 +28,7 @@ const blocs: Bloc[] = [
       },
       {
         titre: "Mise en place de la base de données du CRM (stage 2e année)",
-        description: "Conception d'un schéma relationnel, développement de migrations et seeders Laravel pour structurer les données utilisateurs, clients, logs et factures. Optimisation de la performance (index, relations), vérification de la cohérence et traçabilité via GitLab.",
+        description: "Conception d'un schéma relationnel, développement de migrations et seeders Laravel pour structurer les données utilisateurs, clients, logs et factures. Optimisation de la performance, vérification de la cohérence et traçabilité via GitLab.",
         preuve: ["Capture Doc1", "Capture Doc2", "Capture Doc3"],
         lien: ["/TableauComp/BLOC1/1.5.png", "/TableauComp/BLOC1/116.png", "/TableauComp/BLOC1/1.2.png","/TableauComp/BLOC1/1.3.png","/TableauComp/BLOC1/1.4.png"]
         

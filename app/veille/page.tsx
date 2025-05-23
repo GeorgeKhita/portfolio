@@ -20,7 +20,7 @@ const themes = [
 const outils = [
   {
     nom: "Flipboard",
-    image: "/TableauComp/Flipboard.png",
+    image: "/TableauComp/flipboard.png",
     description: "Mon outil préféré pour centraliser et organiser ma veille tech.",
     badge: true,
     lien: "https://flipboard.com/"
