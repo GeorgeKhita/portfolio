@@ -23,7 +23,7 @@ const outils = [
     image: "/TableauComp/flipboard.png",
     description: "Mon outil préféré pour centraliser et organiser ma veille tech.",
     badge: true,
-    lien: "https://flipboard.com/"
+    lien: "https://flipboard.com/@georgekhita69g7/ia-et-thique-l2ndkjnty"
   },
   {
     nom: "Youtube",
