@@ -6,14 +6,14 @@ const themes = [
   {
     icon: "🤖",
     titre: "IA & Développement",
-    resume: "Découverte et test d'outils comme GitHub Copilot et Tabnine pour accélérer le développement, générer du code, et automatiser les tests.",
-    source: "https://github.com/features/copilot"
+    resume: "Découverte et test d'outils comme Cursor et GitHub Copilot pour accélérer le développement, générer du code, et automatiser les tests.",
+    source: "https://www.cursor.com/"
   },
   {
     icon: "⚖️",
     titre: "Éthique & Risques",
     resume: "Réflexion sur la fiabilité, les biais, la propriété intellectuelle et le RGPD dans l'utilisation de l'IA pour le code.",
-    source: "https://www.lemagit.fr/actualites/366551899/Les-risques-de-lIA-en-developpement"
+    source: "https://codpo.fr/rgpd-intelligence-artificielle/"
   }
 ];
 
@@ -26,18 +26,12 @@ const outils = [
     lien: "https://flipboard.com/"
   },
   {
-    nom: "Google Alertes",
-    image: "/TableauComp/google-alertes.png",
-    description: "Pour recevoir des actus personnalisées sur l'IA et le développement.",
+    nom: "Youtube",
+    image: "/TableauComp/youtube.png",
+    description: "Pour rester à la pointe de la tech, je regarde des vidéos sur Youtube.",
     badge: false,
-    lien: "https://www.google.com/alerts"
+    lien: "https://www.youtube.com/"
   }
-];
-
-const galerie = [
-  "/TableauComp/Flipboard.png",
-  "/TableauComp/CopilotDemo.png",
-  "/TableauComp/EthiqueIA.png",
 ];
 
 const points = [
@@ -52,7 +46,6 @@ const citation = {
 };
 
 const VeillePage = () => {
-  const [modalImage, setModalImage] = useState<string | null>(null);
   return (
     <main className="max-w-4xl mx-auto p-6 space-y-12">
       <motion.h1
@@ -111,48 +104,6 @@ const VeillePage = () => {
             </div>
           ))}
         </div>
-      </motion.section>
-
-      {/* Galerie slider horizontal */}
-      <motion.section
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.2 }}
-        transition={{ duration: 0.7 }}
-      >
-        <h2 className="text-2xl font-bold mb-4">🖼️ Galerie</h2>
-        <div className="flex gap-4 overflow-x-auto pb-2">
-          {galerie.map((img, i) => (
-            <img
-              key={i}
-              src={img}
-              alt={`Veille ${i + 1}`}
-              className="rounded shadow max-h-32 min-w-[180px] object-cover border border-gray-300 dark:border-gray-700 cursor-pointer hover:scale-105 transition"
-              onClick={() => setModalImage(img)}
-            />
-          ))}
-        </div>
-        {modalImage && (
-          <div
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80"
-            onClick={() => setModalImage(null)}
-          >
-            <img
-              src={modalImage}
-              alt="Agrandissement"
-              className="max-h-[90vh] max-w-[90vw] rounded-lg shadow-lg border-4 border-white"
-              onClick={e => e.stopPropagation()}
-            />
-            <button
-              onClick={() => setModalImage(null)}
-              className="absolute top-6 right-6 text-gray-700 hover:text-red-500 bg-white bg-opacity-70 rounded-full w-8 h-8 flex items-center justify-center shadow transition text-2xl"
-              aria-label="Fermer"
-              style={{ border: 'none' }}
-            >
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2"><line x1="5" y1="5" x2="15" y2="15"/><line x1="15" y1="5" x2="5" y2="15"/></svg>
-            </button>
-          </div>
-        )}
       </motion.section>
 
       {/* Ce que j'ai retenu */}

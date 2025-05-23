@@ -11,7 +11,6 @@ import "./TechStackMarquee.css"; // On va créer ce fichier pour l'animation
 const techs = [
   { name: "HTML", logo: "/html.svg" },
   { name: "CSS", logo: "/css.svg" },
-  { name: "JavaScript", logo: "/javascript.svg" },
   { name: "PHP", logo: "/php.svg" },
   { name: "Java", logo: "/java.svg" },
   { name: "GitHub", logo: "/github.svg" },

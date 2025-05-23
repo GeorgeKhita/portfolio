@@ -1,0 +1,57 @@
+1.1 Emplacement du répertoire “migrations” dans le projet
+(crm-back/database/migrations)
+1.2 Extrait de toutes les fichiers migrations durant le stage
+1.3 Exemple de code de Seeder permettant de peupler la base de données avec des données de test pour
+valider les migrations.
+1.4 Exemple de code de Factory générant des données aléatoires afin de simuler des enregistrements et tester
+la robustesse des modèles.
+1.5 Capture d'écran de la vue concepteur de la base de données CRM_back, illustrant la structure détaillée des
+tables et leurs relations pour une gestion optimale des données.
+1.6 Capture d'écran d'un commit GitLab illustrant l'ajout d'un fichier de migration pour la mise à jour de la
+structure de la base de données.
+
+2.1 Capture d'écran de Postman montrant l'aperçu général des requêtes API du CRM_Back.
+2.2 Extrait de code du UserController mettant en évidence la méthode login, illustrant la gestion de
+l'authentification.
+2.3 Extrait du fichier web.php affichant la définition de la route POST '/auth/login', essentielle pour
+l'authentification
+2.4 Capture d'écran de Postman montrant la route '/auth/login' renseignée avec l'URL locale (127.0.0.1), en
+cours de test en environnement de développement.
+2.5 Capture d'écran de Postman affichant la réponse JSON de la route '/auth/login', incluant le token de
+connexion et les informations associées.
+
+3.1 Capture d'écran des issues créées pendant le stage, montrant les catégories 'to be tested' pour les tâches
+terminées en attente de validation et 'to do' pour les tâches en cours.
+3.2 Capture d'écran affichant les branches disponibles dans le répertoire CRM_back, avec la branche 'main' et
+la branche 'dev-george' sur laquelle j'ai travaillé.
+3.3 Extrait de la liste des commits effectués durant le stage, illustrant l'évolution du projet et les contributions
+apportées.
+3.4 + 3.5 Capture d'écran du board GitLab, montrant la gestion des issues réparties dans les catégories 'open', 'to be
+defined', 'to do', 'wip', 'to be tested', 'ready for release' et 'closed'.
+3.6 Exemple d'issue créée pour implémenter les endpoints du ClientController, détaillant les objectifs et les
+tâches à réaliser.
+3.7 Capture d'écran d'un commit lié à l'issue 'Implémenter les endpoints clients', incluant le numéro d'issue pour
+assurer la traçabilité des modifications.
+
+4.1 Extrait de code du UserController montrant la méthode 'register', intégrant une implémentation de rate
+limiting via un système de cache pour limiter le nombre de requêtes et sécuriser le CRM contre les attaques.
+4.2 Extrait de code du LogService illustrant le modèle de log utilisé pour insérer les logs dans la base de
+données, garantissant la traçabilité des actions sur le CRM
+4.3 Extrait de code de la méthode getUser démontrant le système de vérification des permissions. La requête
+est rejetée si l'utilisateur ne dispose pas des droits nécessaires pour accéder à cette route
+4.4 Extrait de code de la méthode hasPermission, utilisée pour vérifier si un utilisateur possède la permission
+requise pour accéder à une ressource spécifique, assurant ainsi un contrôle d'accès rigoureux.
+4.5 Capture d'écran de Postman montrant la requête '/audit-logs/export' qui renvoie une réponse au format CSV,
+illustrant la fonctionnalité d'export des logs pour une analyse externe.
+
+5.1 Capture d'écran montrant les répertoires GitLab auxquels j'avais accès durant le stage : 'CRM-back' pour le
+développement et 'CRM-docs' pour la documentation
+5.2 Capture d'écran du répertoire 'CRM-docs' sur GitLab, affichant la structure des fichiers de documentation du
+projet.
+5.3 Extrait de code d'un fichier Markdown (.md) dans PHPStorm, illustrant la création et l'édition de la
+documentation, avec l'aperçu du code affiché dans l'éditeur
+5.4 Capture d'écran montrant l'affichage du fichier Markdown sur GitLab, démontrant la mise en forme et la
+structure de la documentation.
+5.5 Capture d'écran d'un commit GitLab associé à la documentation pour la gestion des factures, incluant le
+message de commit et la référence à l'issue correspondante.
+

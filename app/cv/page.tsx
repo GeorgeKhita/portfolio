@@ -16,13 +16,14 @@ const infos = {
 };
 
 const competences = [
-  "PHP", "Laravel", "MySQL", "Angular", "Git", "HTML", "CSS", "JavaScript", "Trello", "VS Code", "GitHub"
+  "PHP", "Laravel", "MySQL", "Git", "HTML", "CSS", "Java", "Trello", "VS Code", "GitHub"
 ];
 
 const parcours = [
   { date: "2025 (à venir)", titre: "Bachelor Systèmes d'Information (option Développement des Systèmes Numériques)", lieu: "Limayrac Toulouse" },
   { date: "2023-2025", titre: "BTS SIO (option SLAM)", lieu: "Limayrac Toulouse" },
   { date: "2020-2022", titre: "L1 Informatique", lieu: "Université Paul Sabatier Toulouse" },
+  { date: "2019-2020", titre: "L1 Chimie", lieu: "Université Paul Sabatier Toulouse" },
   { date: "2018", titre: "BAC S", lieu: "Lycée Paul Sabatier, Carcassonne" },
 ];
 
@@ -131,42 +132,6 @@ export default function PageCV() {
         </div>
       </motion.section>
 
-      {/* Expériences professionnelles */}
-      <motion.section
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.2 }}
-        transition={{ duration: 0.7 }}
-      >
-        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Expériences professionnelles</h2>
-        <div className="space-y-6">
-          {experiences.map((exp, i) => (
-            <div key={i} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
-                <div>
-                  <span className="text-gray-500">{exp.date}</span>
-                  <h3 className="text-xl font-bold">{exp.titre}</h3>
-                  <span className="italic text-gray-600">Entreprise : {exp.entreprise}</span>
-                </div>
-                {exp.telechargement && (
-                  <a
-                    href={exp.telechargement}
-                    download
-                    className="mt-2 md:mt-0 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
-                  >
-                    <FaDownload className="inline mr-2" /> Télécharger
-                  </a>
-                )}
-              </div>
-              <ul className="list-disc list-inside mb-2">
-                {exp.missions.map((m, j) => (
-                  <li key={j}>{m}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </motion.section>
 
       {/* Aperçu PDF + actions */}
       <motion.section

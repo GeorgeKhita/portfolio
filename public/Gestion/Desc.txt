@@ -1,0 +1,27 @@
+1.1 Exemple de Compte-rendu:
+2.1 Vue concepteur de la base de données :
+3.1 Choix de l’utilisateur :
+3.2 Page de connexion pour pouvoir accéder à son espace :
+3.3 Espace étudiant avec les stages déjà renseigné et la possibilité d’en ajouter un avec un
+bouton:
+3.4 L’espace professeur avec la liste des élèves du professeur en question:
+3.5 Liste du stage de l’élève par le professeur et la possibilité d’agir sur les différentes démarche
+du stage:
+4.1 Sélection du rôle (Élève, enseignant, administrateur):
+4.2 Page de connexion étudiant (la présentation est identique pour les trois rôles):
+4.3 Espace étudiant/Historique des stages (Historique des stage, possibilité de créer nouveau
+stage):
+4.4 Information Utilisateur(Informations préremplies, informations dans la base):
+4.5 Information Entreprise (Recherche par numéro SIRET):
+4.6 Contacts (possibilité de modifier/ajouter de nouveau contacts):
+4.7 Choix du gérant:
+4.8 Choix du tuteur:
+4.9 Informations sur le stage(dates, durée, adresse durant le stage…):
+4.10 Récapitulatif:
+4.11 Accueil élève avec la fiche de renseignement remplie(possibilité de générer fiche de
+renseignement):
+4.12 Fiche de renseignements généré automatiquement:
+4.13 Espace enseignant (Possibilité de sélectionner une classe, puis un élève):
+4.14 Historiques des stages de l'élève sélectionné (Approuver ou rejeter la fiche de
+renseignements):
+

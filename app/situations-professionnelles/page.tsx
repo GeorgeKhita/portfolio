@@ -7,14 +7,14 @@ import Link from "next/link";
 const stages = [
   {
     date: "Janv. - Fév. 2025",
-    titre: "Stagiaire Développeur Full Stack InnoLabs",
+    titre: "Stagiaire Développeur Back-end",
     entreprise: "InnoLabs SAS",
     missions: [
-      "Développement d'un CRM complet (PHP, Laravel, MySQL, Angular)",
+      "Développement d'un CRM (PHP, Laravel, MySQL)",
       "Mise en place de la base de données et optimisation sécurité",
       "Rédaction de documentation technique et suivi agile",
     ],
-    retour: "J'ai pu découvrir le développement d'un outil métier de A à Z, en travaillant à distance et en équipe. Ce stage m'a permis de renforcer mes compétences en PHP et en gestion de projet agile.",
+    retour: "J'ai pu découvrir le développement d'un outil métier de A à Z, en travaillant à distance. Ce stage m'a permis de renforcer mes compétences en PHP et en gestion de projet agile.",
     telechargement: "/rapport-innolabs.pdf",
   },
   {
@@ -35,13 +35,13 @@ const projets = [
   {
     date: "1ère année - Semestre 1",
     titre: "Site web statique de Rugby",
-    type: "Projet individuel",
+    type: "Projet en groupe (3 personnes)",
     missions: [
       "HTML/CSS : Structure et mise en page du site.",
       "Navigation entre les rubriques des différents sports.",
       "Premier projet web réalisé au BTS SIO.",
     ],
-    retour: "Mon tout premier projet web ! J'ai appris à structurer des pages HTML et à styliser avec CSS en construisant un site autour de ma passion : le football.",
+    retour: "Mon tout premier projet web, J'ai appris à structurer des pages HTML et à styliser avec CSS",
     screens: [
       {
         src: "/M2L/Rugby.jpg",
@@ -112,25 +112,65 @@ const projets = [
     retour: "Ce projet m'a fait découvrir le fonctionnement des rôles utilisateurs, la gestion de sessions et l'interaction avec une base de données via PHP/MySQL.",
     screens: [
       {
-        src: "/ForumSport/chrome_74XOFRRqDw.png",
+        src: "/ForumSport/1.png",
         alt: "Interface de connexion",
-        description: "Page de connexion avec gestion des rôles"
+        description: "Accueil "
       },
       {
-        src: "/ForumSport/chrome_h0g6W2YKeJ.png",
+        src: "/ForumSport/2.png",
         alt: "Interface administrateur",
-        description: "Panneau d'administration"
+        description: "Page d'inscription"
       },
       {
-        src: "/ForumSport/chrome_1XXNAGFKzT.png",
+        src: "/ForumSport/3.png",
         alt: "Base de données",
-        description: "Structure de la base de données"
+        description: "Page de connexion"
       },
       {
-        src: "/ForumSport/chrome_CWSpRnKhJe.png",
+        src: "/ForumSport/4.png",
         alt: "Gestion des utilisateurs",
-        description: "Interface de gestion des utilisateurs"
-      }
+        description: "Accueil (Connecté)"
+      },
+      {
+        src: "/ForumSport/5.png",
+        alt: "Gestion des utilisateurs",
+        description: "Liste des messages"
+      },
+      {
+        src: "/ForumSport/6.png",
+        alt: "Gestion des utilisateurs",
+        description: "Ajouter une question"
+      },
+      {
+        src: "/ForumSport/7.png",
+        alt: "Gestion des utilisateurs",
+        description: "Liste des messages"
+      },
+      {
+        src: "/ForumSport/8.png",
+        alt: "Gestion des utilisateurs",
+        description: "Accueil Admin"
+       },
+      {
+        src: "/ForumSport/9.png",
+        alt: "Gestion des utilisateurs",
+        description: "Structure Base de Données"
+      },
+      {
+        src: "/ForumSport/10.png",
+        alt: "Gestion des utilisateurs",
+        description: "Vue Concepteur"
+      },
+      {
+        src: "/ForumSport/11.png",
+        alt: "Gestion des utilisateurs",
+        description: "XAMPP"
+      },
+      
+      
+
+
+
     ]
   },
   {
@@ -145,25 +185,72 @@ const projets = [
     retour: "Un projet complet en équipe : j'ai relié un site PHP et une application Java Swing autour d'une base MySQL, en collaborant à chaque étape.",
     screens: [
       {
-        src: "/RestoSwingWeb/restoswing1.png",
+        src: "/RestoSwingWeb/1.png",
         alt: "Application Java Swing",
         description: "Interface de l'application RestoSwing"
       },
       {
-        src: "/RestoSwingWeb/chrome_4x7ngb3gJg.png",
+        src: "/RestoSwingWeb/2.png",
         alt: "Site web RestoWeb",
-        description: "Interface du site web RestoWeb"
+        description: "Interface Inscription"
       },
       {
-        src: "/RestoSwingWeb/netbeans64_QmD2D3armO.png",
+        src: "/RestoSwingWeb/3.png",
         alt: "Développement Java",
-        description: "Environnement de développement NetBeans"
+        description: "Interface Connexion"
       },
       {
-        src: "/RestoSwingWeb/chrome_KkUPSYN80d.png",
+        src: "/RestoSwingWeb/4.png",
         alt: "Base de données",
-        description: "Structure de la base de données MySQL"
-      }
+        description: "Page d'accueil (Connecté)"
+      },
+      {
+        src: "/RestoSwingWeb/5.png",
+        alt: "Base de données",
+        description: "Page produit"
+      },
+      {
+        src: "/RestoSwingWeb/6.png",
+        alt: "Base de données",
+        description: "Panier"
+      },
+      {
+        src: "/RestoSwingWeb/7.png",
+        alt: "Base de données",
+        description: "Paiment de la commande"
+      },
+      {
+        src: "/RestoSwingWeb/8.png",
+        alt: "Base de données",
+        description: "Commande confirmée"
+      },
+      {
+        src: "/RestoSwingWeb/9.png",
+        alt: "Base de données",
+        description: "Partie RestoSwing"
+      },
+      {
+        src: "/RestoSwingWeb/10.png",
+        alt: "Base de données",
+        description: "Liste de commandes"
+      },
+      {
+        src: "/RestoSwingWeb/11.png",
+        alt: "Base de données",
+        description: "Détails de la commande"
+      },
+      {
+        src: "/RestoSwingWeb/12.png",
+        alt: "Base de données",
+        description: "Commande dans la BDD"
+      },
+      {
+        src: "/RestoSwingWeb/14.png",
+        alt: "Base de données",
+        description: "Structure RestoWeb"
+      },
+
+
     ]
   },
 ];
@@ -178,18 +265,11 @@ const StageCard = ({ stage }: { stage: typeof stages[0] }) => (
       </div>
       <div className="flex gap-2 mt-2 md:mt-0">
         <Link
-          href={stage.titre.includes("InnoLabs") ? "/situations-professionnelles/stage-innolabs" : "/situations-professionnelles/stage-gestion"}
+          href={stage.titre.includes("Back-end") ? "/situations-professionnelles/stage-innolabs" : "/situations-professionnelles/stage-gestion"}
           className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
         >
           Voir le détail
         </Link>
-      <a
-        href={stage.telechargement}
-        download
-          className="inline-block bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700 transition"
-      >
-        📥 Télécharger
-      </a>
       </div>
     </div>
     <ul className="list-disc list-inside mb-2">

@@ -27,15 +27,15 @@ const blocs: Bloc[] = [
         lien: ["/TableauComp/glpi1.png", "/TableauComp/glpi2.png", "/TableauComp/glpi3.png"]
       },
       {
-        titre: "Rédaction d'une documentation technique",
-        description: "Dans le cadre de mon projet web réalisé en stage, j'ai rédigé une documentation complète qui décrit la structure du site, les technologies utilisées, les dossiers/fichiers importants et les fonctionnalités développées.",
+        titre: "Mise en place de la base de données du CRM (stage 2e année)",
+        description: "Conception d'un schéma relationnel, développement de migrations et seeders Laravel pour structurer les données utilisateurs, clients, logs et factures. Optimisation de la performance (index, relations), vérification de la cohérence et traçabilité via GitLab.",
         preuve: ["Capture Doc1", "Capture Doc2", "Capture Doc3"],
-        lien: ["/TableauComp/DocuClient1.png", "/TableauComp/DocuClient2.png", "/TableauComp/DocuClient3.png"]
+        lien: ["/TableauComp/BLOC1/1.5.png", "/TableauComp/BLOC1/116.png", "/TableauComp/BLOC1/1.2.png","/TableauComp/BLOC1/1.3.png","/TableauComp/BLOC1/1.4.png"]
         
         
       },
     ],
-    commentaire: "Dans ce bloc, j'ai appris à gérer des équipements informatiques avec GLPI, un outil très utilisé dans les entreprises. J'ai aussi appris à rédiger une documentation claire pour décrire mon projet web, ce qui est important pour le suivi, la maintenance ou les évolutions futures.",
+    commentaire: "Gestion d'incidents avec GLPI et structuration de la base de données du CRM via Laravel. J'ai mis en œuvre des pratiques réelles de suivi, d'optimisation et de documentation du patrimoine informatique.",
   },
   {
     titre: "Bloc 2 – Répondre aux incidents et aux demandes d'assistance et d'évolution",
@@ -47,22 +47,41 @@ const blocs: Bloc[] = [
         lien: ["/TableauComp/DHCP1.png", "/TableauComp/DHCP2.png", "/TableauComp/DHCP3.png", "/TableauComp/DHCP4.png", "/TableauComp/DHCP5.png"],
         telechargement: "/TableauComp/DHCP.pdf",
       },
+      {
+        titre: "Évolution fonctionnelle du CRM : gestion du verrouillage utilisateur",
+        description: "Ajout des champs is_locked et lock_reason à la table users dans le CRM pour empêcher les utilisateurs de modifier leurs informations de compte lorsqu'ils sont verrouillés. Ajout d'une colonne dans la table users pour stocker le motif du verrouillage.",
+        preuve: "Capture Doc1",
+        lien: "/TableauComp/BLOC2/11.png"
+      }
     ],
-    commentaire: "Grâce à ce TP, j'ai appris à mettre en place un service réseau essentiel : le DHCP. C'est une compétence utile pour gérer efficacement un parc informatique en entreprise.",
+    commentaire: "J'ai résolu un incident réseau via DHCP et répondu à une demande d'évolution sur un CRM en adaptant sa base de données. Ces actions illustrent ma capacité à gérer à la fois des incidents techniques et des modifications fonctionnelles.",
   },
   {
-    titre: "Bloc 3 – Développer la présence en ligne de l'organisation",
+    titre: "Bloc 3 - Développer la présence en ligne de l'organisation",
     realisations: [
       {
-        titre: "creation de site de getion de stage pour mon stage",
+        titre: "Creation de site de gestion de stage pour mon stage",
         description: "site de gestion de stage pour mon stage codé en php, html, css",
         preuve: "Capture site stage",
-        lien: "/TableauComp/SiteStage.png",
+        lien: ["/TableauComp/BLOC3/4.1.png","/TableauComp/BLOC3/4.2.png","/TableauComp/BLOC3/4.3.png","/TableauComp/BLOC3/4.4.png","/TableauComp/BLOC3/4.5.png", "/TableauComp/BLOC3/SiteStage.png"]
       },
+      {
+        titre: "Réalisation d'API Laravel pour le CRM (stage 2e année)",
+        description: "Développement de routes web sécurisées pour la gestion des utilisateurs, clients et factures (authentification, CRUD, token JWT).",
+        preuve: "Capture Doc1",
+        lien: ["/TableauComp/BLOC3/2.1.png","/TableauComp/BLOC3/2.2.png","/TableauComp/BLOC3/2.3.png","/TableauComp/BLOC3/2.4.png","/TableauComp/BLOC3/2.5.png"]
+      },
+      {
+        titre: "Génération de documents dynamiques",
+        description: "Génération automatique de fiche de renseignement PDF (1re année)",
+        preuve: "Capture Doc1",
+        lien: "/TableauComp/BLOC3/1.1.png"
+      }
     ],
-commentaire: "Pendant mon stage j'ai créé un site de gestion de stage pour mon stage codé en php, html, css"  },
-  {
-    titre: "Bloc 4 – Travailler en mode projet",
+    commentaire: "J'ai développé un site web de gestion de stages (frontend/backend), une API Laravel sécurisée pour un CRM, et des outils de génération automatique de documents. Ces projets illustrent ma capacité à créer des services en ligne fonctionnels et adaptés aux besoins des utilisateurs.",
+  },
+    {
+    titre: "Bloc 4 - Travailler en mode projet",
     realisations: [
       {
         titre: "Organisation de projet avec Trello",
@@ -74,15 +93,22 @@ commentaire: "Pendant mon stage j'ai créé un site de gestion de stage pour mon
         titre: "Partage via Google Drive et GitHub",
         description: "Dépôt de code sur GitHub, documents partagés via Google Drive.",
         preuve: ["Drive", "GitHub"],
+        lien: ["/TableauComp/BLOC4/3.1.png", "/TableauComp/BLOC4/3.2.png", "/TableauComp/BLOC4/3.3.png"],
       },
       {
-        titre: "Maquette et diagramme de Gantt",
-        description: "Création d'une maquette avec Balsamiq et planification du projet avec ProjectLibre.",
+        titre: "Planification et suivi du projet CRM à l'aide d'un diagramme de Gantt (stage 2e année)",
+        description: "Mon tuteur m'a fourni un planning prévisionnel sous forme de Gantt dès le début du stage. Ce document m'a servi de support pour organiser mes tâches : développement, réunions, documentation et livrables.",
         preuve: ["Maquette", "Gantt"],
+        lien: "/TableauComp/BLOC4/2.1.png",
       },
+      {
+        titre: "Suivi et organisation du développement du CRM à l'aide de GitLab",
+        description: " En stage chez InnoLabs, j'ai développé un CRM en PHP/Laravel. Le projet a été organisé avec la méthode Agile.",
+        preuve: "Capture GitLab",
+        lien: ["/TableauComp/BLOC4/1.1.png", "/TableauComp/BLOC4/1.2.png", "/TableauComp/BLOC4/1.3.png", "/TableauComp/BLOC4/1.4.png",]
+      }
     ],
-    commentaire: "Travailler en mode projet, c'est ce qu'on a fait pour tous nos projets de groupe. On utilisait Trello pour organiser les tâches, Google Drive pour partager les documents, et GitHub pour le code. J'ai aussi créé une maquette et un planning pendant mon stage.",
-  },
+  commentaire: "J'ai utilisé des outils comme Trello, GitLab et un planning Gantt pour organiser, suivre et structurer mes projets scolaires et de stage, en appliquant des méthodes de gestion de projet réelles."  },
   {
     titre: "Bloc 5 – Mettre à disposition des utilisateurs un service informatique",
     realisations: [
@@ -92,28 +118,33 @@ commentaire: "Pendant mon stage j'ai créé un site de gestion de stage pour mon
         preuve: "Capture Vercel",
         lien: "/TableauComp/Vercel.png",
       },
+      {
+        titre: "Déploiement fonctionnel du CRM",
+        description: "Mise à disposition d'un CRM fonctionnel avec gestion des utilisateurs, clients, factures",
+        preuve: "Capture Code",
+        lien: ["/TableauComp/BLOC5/1.1.png", "/TableauComp/BLOC5/1.2.png"],
+      }
     ],
-    commentaire: "J'ai appris à héberger un site avec un vrai nom de domaine, sur Hostinger. J'ai paramétré le FTP, la base de données, et j'ai mis le site en ligne. C'était super motivant de voir mon travail accessible sur Internet.",
+    commentaire: "J’ai mis à disposition un portfolio en ligne et un CRM fonctionnel. Ces livrables ont été testés, documentés et pensés pour répondre à des besoins utilisateurs réels."
   },
   {
-    titre: "Bloc 6 – Organiser son développement professionnel",
+    titre: "Bloc 6 - Organiser son développement professionnel",
     realisations: [
       {
         titre: "Création d'un compte LinkedIn et d'un CV professionnel",
         description: "Mise à jour régulière de mon profil LinkedIn et création d'un CV clair et moderne.",
         preuve: "capture de mon profil LinkedIn",
-        lien: ["https://www.linkedin.com/in/george-k-9726b7295/", "/TableauComp/linkedin.png"],
+        lien: ["/TableauComp/linkedin.png"],
   
-        telechargement: "/CV-George-Khitaridze.pdf",
       },
       {
         titre: "Suivi de veille technologique avec Flipboard",
         description: "Utilisation de Flipboard pour suivre les nouveautés web, IA, cybersécurité, etc.",
         preuve: "capture d'écran de Flipboard",
-        lien: ["https://flipboard.com/", "/TableauComp/Flipboard.png"],
+        lien: ["/TableauComp/Flipboard.png"],
       },
     ],
-    commentaire: "J'ai appris à organiser ma veille technologique, par exemple avec Flipboard. J'ai aussi mis à jour mon CV et créé mon profil LinkedIn pour me préparer à l'alternance et au monde professionnel.",
+    commentaire: "J’ai structuré ma démarche professionnelle en créant un profil LinkedIn et un CV moderne, et j’ai organisé une veille technologique active pour suivre les évolutions du secteur.",
   },
 ];
 

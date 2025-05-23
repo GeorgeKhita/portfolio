@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8 space-y-12 relative">
+    <div className="max-w-6xl mx-auto px-4 py-8 space-y-12 relative">
       {/* Section Hero avec effet d'apparition, sans hero.svg */}
       <motion.section
         initial={{ opacity: 0, y: 40 }}
@@ -29,7 +29,7 @@ export default function Home() {
           <div className="flex gap-4 justify-center mt-4">
             <a href="https://www.linkedin.com/in/george-k-9726b7295/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-900 text-2xl"><FaLinkedin /></a>
             <a href="mailto:george.khitaridze@limayrac.fr" className="text-blue-700 hover:text-blue-900 text-2xl"><FaEnvelope /></a>
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-900 text-2xl"><FaGithub /></a>
+            <a href="https://github.com/GeorgeKhita" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-900 text-2xl"><FaGithub /></a>
           </div>
         </div>
         <div className="flex-1 space-y-4 text-center md:text-left">
@@ -63,22 +63,13 @@ export default function Home() {
             transition={{ delay: 0.8, duration: 0.7 }}
             className="flex flex-wrap gap-2 justify-center md:justify-start mt-2"
           >
-            <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Développement Web</span>
+            <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Web</span>
+            <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Back-end</span>
             <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">PHP</span>
-            <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">JavaScript</span>
+            <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">HTML/CSS</span>
             <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">MySQL</span>
-            <span className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm font-medium">Angular</span>
+            <span className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm font-medium">Laravel</span>
           </motion.div>
-          <motion.a
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1, duration: 0.7 }}
-            href="/CV-George-Khitaridze.pdf"
-            download
-            className="inline-block mt-4 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition font-semibold shadow"
-          >
-            Télécharger mon CV
-          </motion.a>
         </div>
       </motion.section>
 
@@ -103,6 +94,10 @@ export default function Home() {
           <div className="flex-1 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md transition transform hover:-translate-y-1 hover:shadow-xl hover:bg-blue-50 dark:hover:bg-blue-900 hover:border-blue-600 border border-transparent cursor-pointer">
             <h3 className="font-semibold text-blue-700 dark:text-blue-300 mb-2">2020-2022</h3>
             <p>L1 Informatique – Université Paul Sabatier Toulouse</p>
+          </div>
+          <div className="flex-1 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md transition transform hover:-translate-y-1 hover:shadow-xl hover:bg-blue-50 dark:hover:bg-blue-900 hover:border-blue-600 border border-transparent cursor-pointer">
+            <h3 className="font-semibold text-blue-700 dark:text-blue-300 mb-2">2019-2020</h3>
+            <p>L1 Chimie – Université Paul Sabatier Toulouse</p>
           </div>
           <div className="flex-1 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md transition transform hover:-translate-y-1 hover:shadow-xl hover:bg-blue-50 dark:hover:bg-blue-900 hover:border-blue-600 border border-transparent cursor-pointer">
             <h3 className="font-semibold text-blue-700 dark:text-blue-300 mb-2">2018</h3>
