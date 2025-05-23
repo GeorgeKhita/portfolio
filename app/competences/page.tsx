@@ -141,7 +141,7 @@ const blocs: Bloc[] = [
         titre: "Suivi de veille technologique avec Flipboard",
         description: "Utilisation de Flipboard pour suivre les nouveautés web, IA, cybersécurité, etc.",
         preuve: "capture d'écran de Flipboard",
-        lien: ["/TableauComp/flipboard.png?v=1"],
+        lien: ["/TableauComp/flipboard.png"],
       },
     ],
     commentaire: "J'ai structuré ma démarche professionnelle en créant un profil LinkedIn et un CV moderne, et j'ai organisé une veille technologique active pour suivre les évolutions du secteur.",
