@@ -42,7 +42,7 @@ const blocs: Bloc[] = [
     realisations: [
       {
         titre: "Configuration d'un serveur DHCP",
-        description: "Lors d'un TP, j'ai configuré un serveur DHCP sous Windows Server. Cela permet d'attribuer automatiquement une adresse IP aux machines d'un réseau. J'ai également vérifié le bon fonctionnement de l'attribution via une machine cliente.",
+        description: "Lors d'un TP, j'ai configuré un serveur DHCP sous Linux. Cela permet d'attribuer automatiquement une adresse IP aux machines d'un réseau. J'ai également vérifié le bon fonctionnement de l'attribution via une machine cliente.",
         preuve: "DHCP capture",
         lien: ["/TableauComp/DHCP1.png", "/TableauComp/DHCP2.png", "/TableauComp/DHCP3.png", "/TableauComp/DHCP4.png", "/TableauComp/DHCP5.png"],
         telechargement: "/TableauComp/DHCP.pdf",
